@@ -14,14 +14,12 @@ The goal is to realize yourself as a successful web developer and I am ready to 
       * VS Code
       * Adobe Photoshop      
 5.  **Code example:**  
-  
-```
+```  
 var portFolio = document.querySelectorAll('.spisok-portfolio-item');
 var g = document.querySelectorAll('.portfolio-item');
 var q = document.querySelectorAll('.knopka');
 console.log(q);
-
- portFolio.forEach(function(x,i,arr) {
+portFolio.forEach(function(x,i,arr) {
    arr[i].addEventListener('click', open , false)
  };
 
