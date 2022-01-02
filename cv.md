@@ -14,6 +14,7 @@ The goal is to realize yourself as a successful web developer and I am ready to 
       * VS Code
       * Adobe Photoshop      
 5.  **Code example:**  
+  
 ```
 var portFolio = document.querySelectorAll('.spisok-portfolio-item');
 var g = document.querySelectorAll('.portfolio-item');
