@@ -13,4 +13,36 @@ The goal is to realize yourself as a successful web developer and I am ready to 
       * Git, GitHub 
       * VS Code
       * Adobe Photoshop      
+5.  **Code example:**  
+```
+var portFolio = document.querySelectorAll('.spisok-portfolio-item');
+var g = document.querySelectorAll('.portfolio-item');
+var q = document.querySelectorAll('.knopka');
+console.log(q);
 
+ portFolio.forEach(function(x,i,arr) {
+   arr[i].addEventListener('click', open , false)
+ };
+
+   q.forEach(function(x,i,arr) {
+     arr[i].addEventListener('click', close , false)
+   };
+
+    function open(e) {
+      this.style.cssText = "display:none";
+        var a=document.getElementById(this.getAttribute("data-show-portfolio"));
+      a.style.cssText = "display:block";
+   return e.preventDefault();
+   }
+
+function close(r){
+   this.style.cssText = "display:none";
+     var a=document.getElementById(this.getAttribute("data-portfolio"));
+   a.style.cssText = "display:none";
+ return r.preventDefault();
+}
+```
+6. **Education**           
+    * Belarusian State University of Informatics and Radioelectronics (web design)  
+7. **Languages:**  
+My English level is between A2 (up to intermediate level) and B1 (intermediate level). I attend courses, listen to training courses in English, read technical documentation and sometimes communicate.
