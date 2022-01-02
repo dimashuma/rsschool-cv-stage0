@@ -14,18 +14,18 @@ The goal is to realize yourself as a successful web developer and I am ready to 
       * VS Code
       * Adobe Photoshop      
 5.  **Code example:**  
-```  
-var portFolio = document.querySelectorAll('.spisok-portfolio-item');
-var g = document.querySelectorAll('.portfolio-item');
-var q = document.querySelectorAll('.knopka');
-console.log(q);
-portFolio.forEach(function(x,i,arr) {
-   arr[i].addEventListener('click', open , false)
- };
+ ```  
+    var portFolio = document.querySelectorAll('.spisok-portfolio-item');
+    var g = document.querySelectorAll('.portfolio-item');
+    var q = document.querySelectorAll('.knopka');
+    console.log(q);
+    portFolio.forEach(function(x,i,arr) {
+    arr[i].addEventListener('click', open , false)
+    };
 
-   q.forEach(function(x,i,arr) {
+    q.forEach(function(x,i,arr) {
      arr[i].addEventListener('click', close , false)
-   };
+    };
 
     function open(e) {
       this.style.cssText = "display:none";
@@ -34,13 +34,13 @@ portFolio.forEach(function(x,i,arr) {
    return e.preventDefault();
    }
 
-function close(r){
+    function close(r){
    this.style.cssText = "display:none";
      var a=document.getElementById(this.getAttribute("data-portfolio"));
    a.style.cssText = "display:none";
- return r.preventDefault();
-}
-```
+    return r.preventDefault();
+    }
+ ```
 6. **Education**           
     * Belarusian State University of Informatics and Radioelectronics (web design)  
 7. **Languages:**  
