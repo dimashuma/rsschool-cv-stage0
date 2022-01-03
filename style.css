@@ -29,6 +29,25 @@ section {
     padding: 10px;
 }
 
+header {
+    max-width: 1024px;
+    margin: auto;
+    background-color: rgba(16, 16, 19, 0.618);;
+    height: 50px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+.nav-link {
+    padding: 0 10px;
+    line-height: 50px;
+  }
+
 .section-title {
     font-size: 24px;
     margin-bottom: 10px;
