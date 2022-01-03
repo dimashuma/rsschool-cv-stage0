@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+main {
+    width: 100%;
+    max-width: 1024px;
+    margin: 30px auto;
+    padding: 20px 50px;
+    box-sizing: border-box;
+}
+section {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section-content {
+    font-size: 16px;
+}
+
+.main-info {
+    display: flex;
+    align-items: center;
+}
+
+.info-block {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.name-position {
+    flex: 1;
+}
+
+.full-name {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+
+.position {
+    font-size: 20px;
+}
+
+.avatar {
+    margin-right: 30px;
+    width: 200px;
+}
+
+.contacts-block {
+    margin-top: 75px;
+    font-size: 20px;
+}
+
+.contacts-block li {
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    padding: 0;
+}
+
+.skills ul li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background: #ccccbf;
+}
+
+.code-example code {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.experience ul li,
+.education ul li {
+    margin-bottom: 10px;
+}
