@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #141111;
+}
+
+main {
+    width: 0 auto;
+    max-width: 1024px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 30px;
+    width: 45%;
+    background-color: rgba(235, 235, 243, 0.618);
+    border-radius: 0 20px 0 20px;
+    padding: 10px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section-content {
+    font-size: 16px;
+}
+
+.main-info {
+     max-width: 45%;
+}
+
+.info-block {
+    width: 1024px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.name-position {
+    width: 400px;   
+}
+
+.full-name {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    font-weight: 600px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Luxurious Roman', cursive;
+    padding: auto;
+    text-align: center;
+}
+
+h4 {
+    margin: 20px;
+    text-align: center;
+}
+
+h5 {
+    text-align: left;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 18px;
+    text-align: left;
+    padding-top: 15px;
+}
+.position {
+    font-size: 50px;
+}
+
+.avatar {
+    width: 45%;  
+}
+
+.contacts-block {
+    font-size: 20px;
+}
+
+.contacts-block li {
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    padding: 20px;
+}
+
+.code-example code {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.experience ul li,
+.education ul li {
+    margin-bottom: 10px;
+}
+
+.education-code {
+    margin-left: 12px;
+    width: 95%;
+}
+
+footer {
+    margin: auto;
+    max-width: 1024px;
+    background-color: rgba(16, 16, 19, 0.618);;
+    height: 50px;
+}
+
+.footer-list {
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    padding: 0px 20px;
+    line-height: 50px;
+    vertical-align: middle;
+    list-style: none;
+  }
+
+.footer-list a {
+    color: #111312;
+    text-decoration: none;
+  }
+
+.footer-list li {
+    margin: 0 10px;  
+  }
+
+.footer-list li:nth-last-child(2){
+    width: 800px;
+    margin: 0 10px;
+  }
+
+.footer-list img {
+    vertical-align: middle;
+    width: 25%;
+}
