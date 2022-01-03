@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dzmitry Shumchyk CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">    
+    <title>CV</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,25 +17,35 @@
         <section class="main-info">
             <div class="info-block">
                 <img src="img/avatar.jpg" alt="avatar" class="avatar" >
-                <div class="name-position">
-                    <div class="full-name">Dzmitry Shumchyk</div>
-                </div>
+            </div>  
+        </section>  
+        <section >
+             <div class="name-position">
+                    <h1>Dzmitry Shumchyk</h1>
+                    <h4>Frontend developer</h4>
+                    <h5>Short information about myself:</h5>
+                    <p>The goal is to realize yourself as a successful web developer
+                    and I am ready to make every effort for this. Most of all, I am 
+                    impressed with the fact that it is one of the most dynamically 
+                    developing, which means that there is an opportunity to constantly
+                    learn something new for yourself and learn, improve your skills. 
+                    I like to think, I work a lot and with pleasure, I use a creative 
+                    approach to business. I have the potential to adapt quickly and 
+                    master new technologies on my own. </p>
+                </div>   
             </div>
-            <ul class="contacts-block">
+        </section>   
+        <section>
+             <h5>Contacts:</h5>
+                <ul class="contacts-block">
                 <li>Phone: +375(29)754-08-55</li>
                 <li>Skype: dimashuma</li>
                 <li>Linked-in: <a href="https://www.linkedin.com/in/дима-шумчик-2062ba15b">дима-шумчик-2062ba15b</a> </li>
                 <li>Telegram: https://t.me/Shumchyk</li>
-            </ul>
-        </section>
-        <section class="summary">
-            <h2 class="section-title">Short information about myself:</h2>
-            <dib class="section-content"> 
-            The goal is to realize yourself as a successful web developer and I am ready to make every effort for this. Most of all, I am impressed with the fact that it is one of the most dynamically developing, which means that there is an opportunity to constantly learn something new for yourself and learn, improve your skills. I like to think, I work a lot and with pleasure, I use a creative approach to business. I have the potential to adapt quickly and master new technologies on my own. 
-            </dib>
-        </section>
+            </ul>   
+        </section>   
         <section class="skills">
-            <h2 class="section-title">Skills and Proficiency:</h2>
+            <h5>Skills and Proficiency:</h5>
             <div class="section-content">
                 <ul>
                     <li>HTML</li>
@@ -46,7 +59,22 @@
             </div>
         </section>
         <section class="education">
-            <h2 section-title>Code example:</h2>
+            <h5>Education: </h5>
+            <div class="section-content">
+                <ul>
+                    <li>Belarusian State University of Informatics and Radio Electronics(Web Design)</li>
+                </ul>
+            </div>
+        </section>
+        <section class="english">
+            <h5>Languages:</h5>
+            <div class="section-content">
+                My English's level is between A2(pre intermediate) and B1(intermediate).I visit courses, listen
+                education courses in english, read technical documentation and have sometimes communication.
+            </div>
+        </section>
+        <section class="education-code">
+            <h5 >Code example:</h5>
             <div class="section-content">
                 <p>var portFolio = document.querySelectorAll('.spisok-portfolio-item')<br>
     var g = document.querySelectorAll('.portfolio-item')<br>
@@ -71,26 +99,19 @@
    this.style.cssText = "display:none";<br>
      var a=document.getElementById(this.getAttribute("data-portfolio"));<br>
    a.style.cssText = "display:none";<br>
-    return r.preventDefault();<br>
-    }</p>
+    return r.preventDefault();}<br>
+    </p>
             </div>
         </section>
-        <section class="education">
-            <h2 section-title>Education</h2>
-            <div class="section-content">
-                <ul>
-                    <li>Belarusian State University of Informatics and Radio Electronics(Web Design)</li>
-                </ul>
-            </div>
-        </section>
-        <section class="english">
-            <h2 class="section-title">Languages:</h2>
-            <div class="section-content">
-                My English's level is between A2(pre intermediate) and B1(intermediate).I visit courses, listen
-                education courses in english, read technical documentation and have sometimes communication.
-            </div>
-        </section>
-    </main>
+    </main>    
+    <footer>
+        <ul class="footer-list">
+            <li>2022</li>
+            <li><a href="https://dimashuma.github.io/rsschool-cv/" title="link github">dimashuma</a></li>
+            <li class="logo"><a href="https://rs.school/js/" title="link course"> <img src="https://rs.school/images/rs_school_js.svg" alt="logo"></a></li>
+            
+        </ul>
+    </footer>  
 </body>
 
 </html>
