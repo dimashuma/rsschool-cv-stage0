@@ -69,8 +69,7 @@ header {
 }
 
 .name-position {
-    width: 400px;
-    
+    width: 400px;   
 }
 
 .full-name {
@@ -155,23 +154,23 @@ footer {
     list-style: none;
   }
 
-  .footer-list a {
+.footer-list a {
     color: #111312;
     text-decoration: none;
   }
 
-  .footer-list li {
+.footer-list li {
     margin: 0 10px;
     
   }
 
-  .footer-list li:nth-last-child(2){
+.footer-list li:nth-last-child(2){
     width: 800px;
     margin: 0 10px;
     
   }
 
-  .footer-list img {
+.footer-list img {
     vertical-align: middle;
     width: 25%;
 }
