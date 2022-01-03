@@ -21,6 +21,7 @@ main {
     flex-wrap: wrap;
     margin: 0 auto;
 }
+
 section {
     margin-bottom: 30px;
     width: 45%;
@@ -28,6 +29,7 @@ section {
     border-radius: 0 20px 0 20px;
     padding: 10px;
 }
+
 
 header {
     max-width: 1024px;
@@ -48,6 +50,7 @@ header {
     line-height: 50px;
   }
 
+
 .section-title {
     font-size: 24px;
     margin-bottom: 10px;
@@ -56,6 +59,7 @@ header {
 .section-content {
     font-size: 16px;
 }
+
 
 .info-avatar {
      max-width: 45%;
@@ -69,7 +73,11 @@ header {
 }
 
 .name-position {
+<<<<<<< HEAD
     width: 400px;   
+=======
+    width: 400px; 
+>>>>>>> a9b925eebe8596a6da8c180eebe7d11c9639c078
 }
 
 .full-name {
@@ -154,6 +162,10 @@ footer {
     list-style: none;
   }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a9b925eebe8596a6da8c180eebe7d11c9639c078
 .footer-list a {
     color: #111312;
     text-decoration: none;
@@ -161,7 +173,6 @@ footer {
 
 .footer-list li {
     margin: 0 10px;
-    
   }
 
 .footer-list li:nth-last-child(2){
