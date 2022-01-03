@@ -46,6 +46,36 @@
             </div>
         </section>
         <section class="education">
+            <h2 section-title>Code example:</h2>
+            <div class="section-content">
+                <p>var portFolio = document.querySelectorAll('.spisok-portfolio-item')<br>
+    var g = document.querySelectorAll('.portfolio-item')<br>
+    var q = document.querySelectorAll('.knopka')<br>
+    console.log(q)<br>
+    portFolio.forEach(function(x,i,arr) {<br>
+    arr[i].addEventListener('click', open , false)<br>
+    };<br>
+
+    q.forEach(function(x,i,arr) {<br>
+     arr[i].addEventListener('click', close , false)<br>
+    };<br>
+
+    function open(e) {<br>
+      this.style.cssText = "display:none";<br>
+        var a=document.getElementById(this.getAttribute("data-show-portfolio"));<br>
+      a.style.cssText = "display:block";<br>
+   return e.preventDefault();<br>
+   }
+
+    function close(r){<br>
+   this.style.cssText = "display:none";<br>
+     var a=document.getElementById(this.getAttribute("data-portfolio"));<br>
+   a.style.cssText = "display:none";<br>
+    return r.preventDefault();<br>
+    }</p>
+            </div>
+        </section>
+        <section class="education">
             <h2 section-title>Education</h2>
             <div class="section-content">
                 <ul>
