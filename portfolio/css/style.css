@@ -168,7 +168,6 @@ header {
 .skills-item {
     width: 1440px;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 60px; 
 }
@@ -185,6 +184,7 @@ header {
     line-height: 36px;
     text-align: center;
     background-position: center top;
+    margin-right: 50px;
 }
 
 .skill-item1:nth-child(1) {
@@ -200,6 +200,7 @@ header {
     font-size: 20px;
     line-height: 40px;
     text-align: center;
+    padding-top: 20px;
 }
 
 .portfolio {
@@ -231,16 +232,16 @@ header {
 
 .portfolio-btns {
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-top: 60px;
     color: #BDAE82;
     cursor: pointer;
-    gap: 10px;  
+    gap: 5px;  
+    margin-left: 252px;
 }
 
 .portfolio-btns1 {
-    margin: 0px 5px;
+
     border: 2px solid #BDAE82;
     width: 220px;
     height: 55px;
