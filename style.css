@@ -30,6 +30,27 @@ section {
     padding: 10px;
 }
 
+
+header {
+    max-width: 1024px;
+    margin: auto;
+    background-color: rgba(16, 16, 19, 0.618);;
+    height: 50px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+.nav-link {
+    padding: 0 10px;
+    line-height: 50px;
+  }
+
+
 .section-title {
     font-size: 24px;
     margin-bottom: 10px;
@@ -39,7 +60,8 @@ section {
     font-size: 16px;
 }
 
-.main-info {
+
+.info-avatar {
      max-width: 45%;
 }
 
@@ -51,7 +73,7 @@ section {
 }
 
 .name-position {
-    width: 400px;   
+    width: 400px; 
 }
 
 .full-name {
@@ -142,12 +164,13 @@ footer {
   }
 
 .footer-list li {
-    margin: 0 10px;  
+    margin: 0 10px;
   }
 
 .footer-list li:nth-last-child(2){
     width: 800px;
     margin: 0 10px;
+    
   }
 
 .footer-list img {
