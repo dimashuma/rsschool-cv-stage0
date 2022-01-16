@@ -1,0 +1,536 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+body {  
+    margin: 0 auto;
+    width: 1440px;
+    height: 5532px;
+    background: #000000;
+}
+
+header {
+    background: url('/rsschool-cv/portfolio/img/bg.png');
+    background-repeat: no-repeat;
+    background-position: center 0;  
+    width: 1440px;
+    height: 910px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo  {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  flex-grow: 1;
+}
+
+.logo {
+    background-image: url('/rsschool-cv/portfolio/img/logo 1.svg');
+    background-size: contain;
+    background-repeat: no-repeat;  
+    transition: 0.3s;
+  }
+
+  .logo:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+      contrast(87%);
+  }
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none; 
+    padding-top: 25px;
+}
+
+.nav-list {
+    padding-left: 0;
+}
+
+.nav-link {
+    color: #fff;
+    padding: 1px 16px;
+    line-height: 50px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.nav-item a {
+    text-decoration: none;
+}
+.nav-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+
+  .nav-item a:hover {
+    color: #4d2323;
+  }
+
+.name {
+    color: #fff;
+    height: 120px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120px;
+    margin-top: 180px;
+    padding-left: 80px;
+    width: 550px;
+}
+
+.name h1 {
+    margin: 0;
+}
+
+.name p {
+    margin: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    padding-top: 10px;   
+}
+
+.button {
+    background: #BDAE82;
+    width: 220px;
+    height: 55px;
+    margin-top: 23px;
+    font-family: Inter;
+    font-size: 20px;
+    text-align: center;
+    line-height: 55px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.button a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.button:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+      contrast(87%);
+}
+
+.buttom a:hover {
+    color: #7a3811;
+    transition: 0.3s;
+  }
+
+.skills {
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    margin-top: 105px;
+    margin-left: 345px;
+}
+
+.skills-title{
+    background: #BDAE82;
+    width: 280px; 
+    height: 2px;
+    vertical-align: center;
+
+}
+
+.skills-title2 {
+   color: #BDAE82; 
+   font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    width: 150px;
+}
+
+.skills-item {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px; 
+}
+
+.skills-item1 {
+    width: 300px;
+    height: 240px;
+    color: #fff;
+    margin: 0 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    background-position: center top;
+}
+
+.skill-item1:nth-child(1) {
+    background-image: url('/rsschool-cv/portfolio/img/camera%201.svg');
+    background-size: 62px 50px;
+  }
+
+
+.skills-item1 h2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.portfolio {
+    width: 1440px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 348px; 
+}
+
+.portfolio-title{
+    background: #BDAE82;
+    width: 240px; 
+    height: 2px;
+    vertical-align: center;
+}
+
+.portfolio-title2 {
+   color: #BDAE82; 
+   font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    width: 220px;
+}
+
+.portfolio-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    color: #BDAE82;
+    cursor: pointer;
+    gap: 10px;  
+}
+
+.portfolio-btns1 {
+    margin: 0px 5px;
+    border: 2px solid #BDAE82;
+    width: 220px;
+    height: 55px;
+    text-align: center;
+    gap: 10px;
+    transition: .3s;
+}
+
+.portfolio-btns1:hover  {filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+      contrast(87%);
+    }
+
+.portfolio-btns1:hover{
+    background-color: #BDAE82;
+    transition: color 0.5s;
+    color: #000;
+}
+
+.portfolio-btns1 a {
+    color: #BDAE82;
+    text-decoration: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 50px;
+ }
+
+.portfolio-btns1 a:hover {
+    color: #000;
+    transition: color 0.5s;
+}
+
+.portfolio-foto {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    gap: 25px;
+}
+
+.video {
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    margin-top: 95px;
+    margin-left: 350px;
+}
+
+.video-title{
+    background: #BDAE82;
+    width: 280px; 
+    height: 2px;
+    vertical-align: center;
+}
+
+.video-title2 {
+   color: #BDAE82; 
+   font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    width: 152px;
+}
+
+.video-item {
+    position: relative;
+}
+
+.video-payer {
+    position: relative;
+    background: url(/rsschool-cv/portfolio/img/video-player.jpg);
+    width: 1400px;
+    height: 705px;
+    margin-top: 60px;
+}
+
+.video-payer:before {
+    content: '';
+    top: 285px;
+    left: 635px;
+    position: absolute;
+    background: url('/rsschool-cv/portfolio/img/Play_hover.png') 0 0 no-repeat;
+    height: 130px;
+    width: 130px;
+    
+  }
+
+  .price {
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    margin-top: 97px;
+    margin-left: 347px;
+}
+.price-title{
+    background: #BDAE82;
+    width: 280px; 
+    height: 2px;
+    vertical-align: center;
+}
+
+.price-title2 {
+   color: #BDAE82; 
+   font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    width: 145px;
+}
+
+.price-btn {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.price-btn div {
+    text-align: center;
+    border: 3px solid #BDAE82;
+    width: 450px;
+    height: 505px;
+    margin-top: 60px;
+    color: #fff;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 44px;
+}
+
+.price-btn h2 {
+    margin-top: 46px;
+}
+
+.price-btn h4 {
+    color: #BDAE82;
+    font-size: 23px;
+    line-height: 48px;
+    margin-bottom: 18px;
+}
+
+.price-btn span {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.price-btn button {
+    margin-top: 40px;
+    width: 220px;
+    height: 55px;
+    background: #BDAE82;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.price-btn button:hover {
+    background: cornflowerblue;
+    cursor: pointer;
+    transition: .3s;
+    text-transform: uppercase;
+}
+
+.contacts {
+    width: 1400px;
+    height: 700px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url('/rsschool-cv/portfolio/img/contacts.jpg');
+}
+
+.contacts div {
+    margin-left: 950px;
+    margin-top: 27px;
+}
+
+.contacts h2 {
+    color: #BDAE82;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 80px;
+
+}
+
+.contacts input {
+    width: 450px;
+    height: 50px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    border: 2px solid #BDAE82;
+    padding: 5px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 10px 0px;
+}
+
+.contacts textarea {
+    resize: none;
+	width: 450px;
+	height: 100px;
+    border: 2px solid #BDAE82;
+    background: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.contacts::placeholder {
+    font-family: inherit;
+    color: #bdae82;
+    font-size: 20px;
+  }
+
+  .contacts button {
+      width: 220px;
+      height: 55px;
+      background: #bdae82;
+      margin-top: 27px;
+      font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+    line-height: 40px;
+  }
+
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-text-fill-color: #bdae82;
+    transition: background-color 0s ease-in-out 9000s;
+  }
+
+footer {
+    height: 150px;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; 
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 50px;
+    margin-left: -20px;
+    margin-top: 34px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none; 
+}
+
+.footer-nav li {
+    padding-right: 21px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-nav2 {
+    margin-left: 50px;
+}
